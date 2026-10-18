@@ -1,0 +1,20 @@
+name = input("Enter Student Name: ")
+a = input("Enter Weekly Allowance: ")
+t = input("Enter Transportation Expenses: ")
+f = input("Enter Food Expenses: ")
+s = input("Enter School Supplies Expenses: ")
+o = input("Enter Other Expenses: ")
+print("")
+
+total = t + f + s + o
+remaining = a - t - f - s - o
+average = Total / 4
+
+print("===== EXPENSES =====")
+print("")
+print("Student Name:", name)
+print("Total Expenses:", total)
+print("Remaining Allowance:", remaining)
+print("Average Expenses:", average)
+print("")
+print("===== EXPENSES =====")
